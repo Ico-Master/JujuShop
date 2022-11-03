@@ -1,0 +1,223 @@
+
+:root{
+    --gra:linear-gradient(45deg, cyan, royalblue);
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(254, 228, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 100%;
+    margin: 50px auto;
+    font-family: sans-serif;
+    
+}
+header{
+    width: 100%;
+    height: 100px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid  rgb(247, 25, 158);;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#gination{
+    text-align: center;
+}
+#gination a{
+    text-decoration: none;
+    background-color: #f20a92;
+    border-radius: 1px 2px;
+    padding:14px;
+    color: #fff;
+    font-weight: 800;
+    
+}
+#gination a i{
+    font-size: 16px;
+    font-weight:800;
+    margin-top:60px;
+
+}
+
+
+
+.active {
+    background: var(--gra);
+
+}
+header ul li .active a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+ul a{
+    text-decoration: none;
+}
+
+
+.product-field{
+    padding: 30px 10px 40px 15px;
+    margin-bottom:50px;
+}
+.product-field ul{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+.product-field ul li{
+    width: 22%;
+    height: 360px;
+    transition: 0.5 all;
+    background: rgb(250, 116, 181);
+    border-radius:20px 80px 20px 20px;
+    padding:5px;
+    margin: 180px 10px 0 10px;
+    position: relative;
+    list-style-type: none;
+}
+
+picture{
+    background: #fff;
+    padding:1px;
+    position: absolute;
+    right: 0px;
+    bottom: 41%;
+    width: 77%;
+    height: 69%;
+    border-radius: 50px 20px 0 20px;
+    transform: skewY(35deg);
+    overflow: hidden;
+    box-shadow: -2px 1px 1px #f6f4f520, -1px 0 0 rgb(239, 49, 182);
+}
+picture img{
+    width: 100%;
+    z-index: 1;
+    transform: skewY(-35deg);
+    padding: 25px 0 0 0;
+}
+.detail{
+    width: 70%;
+    height: 70%;
+}
+
+.detail .icon{
+    width: 30%;
+    height: 55%;
+    padding: 20px 5px ;
+    
+}
+
+.icon span{
+    background: #00000030;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 80%;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 5px;
+    font-size: 20px;
+    color:white
+}
+.icon span:hover{
+    background: #530de0;
+    cursor: pointer;
+}
+
+.detail>strong{
+    display: inherit;
+    margin: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #fff
+}
+.detail>span{
+    display: inherit;
+    padding: 0 30px;
+    width: 50%;
+
+}
+.detail small{
+    display: inline-block;
+    background-color: rgb(248, 184, 216);
+    padding: 8px 20px;
+    margin: 20px;
+    font-weight:bold;
+    border-radius: 6px;
+    border: 3px solid rgb(247, 25, 158);
+    cursor: pointer;
+
+}
+.detail small:hover,
+.indicator li:hover{
+    background: var(--gra);
+    color: white;
+    border-color:  rgb(249, 126, 171);
+}
+li h4{
+    position: absolute;
+    right:3px;
+    top: 47%;
+    font-size: 30px;
+    color: rgb(247, 25, 158);
+    text-shadow: 3px 4px 2px black;
+}
+/*shopppp*/
+
+section h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+ul{
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    
+}
+ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+
+section{
+    width: 100%;
+    margin: 50px auto;
+    
+}
+section h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px,rgb(0, 0, 0.5px);
+    color: rgb(255, 10, 141);
+    font-size: 2em;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0.5px);
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+
+
